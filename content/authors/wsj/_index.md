@@ -7,7 +7,7 @@ name: Shujia Wang
 organizations:
 - name: College of Economics, Shenzhen University
   url: "https://www.szu.edu.cn//"
-role: Associate 
+role: Associate Professor
 education:
   courses:
   - course: PhD in Statistics
