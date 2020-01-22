@@ -1,13 +1,13 @@
 ---
 authors:
 - WSJ
-bio: Researcher in statistics, machine leraning and finance applications.
+bio: Researcher in statistics, quantitative finance and machine learning.
 email: "wangsj@szu.edu.cn"
 name: Shujia Wang
 organizations:
 - name: College of Economics, Shenzhen University
   url: "https://www.szu.edu.cn//"
-role: Associate Professor
+role: Associate 
 education:
   courses:
   - course: PhD in Statistics
@@ -19,7 +19,7 @@ education:
   - course: BSc in Mathematics
     institution: Peking Universisty, China
     year: 1985
-email: ""
+website: "https://andrewwang.netlify.com/"
 interests:
 - Data science / statistics
 - Quantitative Finance
