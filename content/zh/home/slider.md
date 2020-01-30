@@ -12,8 +12,8 @@ interval = 5000
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "您好!"
-  content = "欢迎来到我的个人网站! ::tada::"
+  title = "Hello"
+  content = "欢迎来到我的个人网站!"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -31,8 +31,8 @@ interval = 5000
   #cta_icon = "address-card"
 
 [[item]]
-  title = "我的研究兴趣"
-  content = "我目前的研究兴趣是统计学在经济、社会和金融方面的应用，包括贝叶斯统计、量化金融、结构方程模型以及其统计方法和统计计算。"
+  title = "研究兴趣"
+  content = "我目前的研究兴趣是统计方法在经济、社会和金融方面的应用，包括贝叶斯统计、量化金融、结构方程模型及其它统计方法和统计计算。"
   align = "left"
 
   overlay_color = "#555"  # An HTML color value.

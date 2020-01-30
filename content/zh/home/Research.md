@@ -45,18 +45,18 @@ subtitle = ""
 
 ## Books
 
-* Wang Shujia, Du Ting, and Yang Guanghui. _Business Decision makig: Modeling and Information Technology_(In Chinese), Peking University Press, 2013.
+* Wang Shujia, Du Ting, and Yang Guanghui. _Business Decision making: Modeling and Information Technology_(In Chinese), Peking University Press, 2013.
 
 More publications (together with those in Chinese) please refer to my [google scholar citations](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=aINZKwkAAAAJ&gmla=AJsN-F47peVHaUgfqz3No5ZuARXXazEmLzx5CiLMp_7RFb5V03L7QVXUdsPG4SIEkRrS9lyqEu3iVeM8bASBqMT0AUwWDrgF0G1egQUu750K26X4jNKMrF4).
 
 ## Projects
 
 * "Structural equation modeling for abnormal data", _National Ministry of Education,_ scientific research foundation for returnees, 1998.
-* "shenzhen retail customer satisfaction evaluation", _Shenzhen quality and technical supervision bureau, quality assurance center,_ 2002.
+* "Shenzhen retail customer satisfaction evaluation", _Shenzhen quality and technical supervision bureau, quality assurance center,_ 2002.
 * "Shenzhen (industrial) macro quality index", _Technical director of the research group, Shenzhen quality and technical supervision bureau, quality assurance center,_  2003.
 * "Policy research on entrepreneurship environment of Shenzhen overseas returnees" (main member) by Shenzhen science and technology bureau, and won the third prize of excellent achievements in philosophy and social sciences of Guangdong province, 2004.
 _Shenzhen quality and technical supervision bureau, quality assurance center,_
-*  "Development strategy research of knowledge-based service industry in Guangdong province", Soft science research project in Minjian Guangdong Province, 2005.
+* "Development strategy research of knowledge-based service industry in Guangdong province", Soft science research project in Minjian Guangdong Province, 2005.
 * "Tax research on Shenzhen's economic development and industrial structure adjustment", project of Shenzhen Municipal Party Committee and Government, 2006.
 * "Government decision-making strategy of taxi policy", _Shenzhen quality assurance center_, 2007.
 * "Pearl river delta industry specialization and differentiation strategy", _Guangdong provincial committee of civil construction commission project_, 2009.
