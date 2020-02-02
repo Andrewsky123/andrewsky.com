@@ -50,7 +50,7 @@
   
 
 [[main]]
-  name = "Courses"
+  name = "教学"
   url = "courses/"
   weight = 4
 

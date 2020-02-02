@@ -1,6 +1,6 @@
 ---
 authors:
-- WSJ
+- Shujia Wang
 bio: Researcher in statistics, quantitative finance and machine learning.
 email: "wangsj@szu.edu.cn"
 name: Shujia Wang

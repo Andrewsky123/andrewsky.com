@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- WSJ
 categories: []
 date: "2020-01-28T00:00:00Z"
 draft: false

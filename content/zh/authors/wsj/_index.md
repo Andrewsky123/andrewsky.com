@@ -1,6 +1,6 @@
 ---
 authors:
-- WSJ
+- Shujia Wang
 bio: 统计学，量化金融，贝叶斯
 name: WSJ
 organizations:
