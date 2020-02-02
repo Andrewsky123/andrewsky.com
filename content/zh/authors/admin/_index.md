@@ -1,31 +1,35 @@
 ---
 authors:
-- Shujia Wang
-bio: Researcher in statistics, quantitative finance and machine learning.
-email: "wangsj@szu.edu.cn"
+- admin
+bio: 统计学，量化金融，贝叶斯统计
 name: Shujia Wang
 organizations:
-- name: College of Economics, Shenzhen University
+- name: 深圳大学经济学院
   url: "https://www.szu.edu.cn//"
-role: Associate Professor
+role: 副教授，博士
+
+interests:
+- 数理统计
+- 贝叶斯
+- 量化金融
+- R，Python
+
 education:
   courses:
-  - course: PhD in Statistics
-    institution: The Chinese University of Hong Kong
-    year: 1995
-  - course: MSc in Statistics
-    institution: Southeast University, China
-    year: 1988
-  - course: BSc in Mathematics
-    institution: Peking Universisty, China
+  - course: 学士
+    institution: 北京大学数学系
     year: 1985
+  - course: 理学硕士
+    institution: 东南大学数力系
+    year: 1988
+  - course: 哲学博士(PhD)
+    institution: 香港中文大学统计系
+    year: 1995
+
+email: "wangsj@szu.edu.cn"
+
 website: "https://andrewwang.netlify.com/"
-interests:
-- Data science / statistics
-- Quantitative Finance
-- Bayesian Modeling
-- R, Python and RStan
-- Education
+
 social:
 - icon: envelope
   icon_pack: fas

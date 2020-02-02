@@ -4,9 +4,9 @@ author: WSJ
 date: '2019-10-10'
 slug: ''
 categories:
-  - Rmarkdown
+  - R
 tags:
-  - Blog
+  - Rmarkdown
 image:
   caption: ''
   focal_point: ''

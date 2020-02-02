@@ -2,10 +2,10 @@
 # Course title, summary, and position.
 linktitle: Bayesian Statistics and Its Applications
 summary: Bayesian modeling, Monte Carlo estimation, Bayesian software implementation, and Real world data analysis.
-weight: 1
+weight: 2
 
 # Page metadata.
-title: Overview
+title: Bayesian Statistics and Its Applications
 date: "2020-01-09T00:00:00Z"
 lastmod: "2020-01-09T00:00:00Z"
 draft: true  # Is this a draft? true/false
@@ -16,11 +16,10 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  Bayesian Statistics and Its Applications:
+  Overview:
     name: Overview 
-    weight: 1
+    weight: 2
 ---
-
 
 ## Course Outline
 
