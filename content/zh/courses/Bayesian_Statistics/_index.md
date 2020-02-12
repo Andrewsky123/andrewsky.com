@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu: 
-  Bayesian_Statistics:
+  Overview:
     name: 教学大纲 
     weight: 1
 ---
