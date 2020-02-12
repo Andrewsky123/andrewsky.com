@@ -1,0 +1,91 @@
+---
+title: "作业1：常见概率分布"
+author:  姓名（学号）
+date: "2020年02月12日"
+output: 
+  bookdown::pdf_document2: 
+    dev: "cairo_pdf"  # Allow Chinese figure title and labels
+    latex_engine: xelatex  # for chinese
+    template: template_article_zh.tex   #latex template
+    fig_caption: yes
+    number_sections: yes
+    toc: no   # 不显示目录
+    toc_depth: 3
+  bookdown::gitbook:
+    config:
+      toc: 
+        collapse: subsection
+    self.contained: yes
+    #table_css: TRUE
+    number_sections: TRUE
+    split_by: none
+---
+
+
+
+<div id="说明" class="section level1 unnumbered">
+<h1>说明</h1>
+<p>本次作业是写出<strong>常用概率分布，要求不能少于25个分布。每个分布至少要给出分布的定义、概率函数或密度函数、数学期望和方差</strong>。</p>
+<p>每次作业，需提交Rmarkdown文档和所生成的pdf文档。</p>
+<p>做作业之前，你可能需要做如下准备工作：</p>
+<ol style="list-style-type: decimal">
+<li>安装LaTex（建议安装完整版的Texlive或最新版的MikTex）；</li>
+<li>安装R和RStudio；</li>
+<li>正确配置RStudio：
+<ul>
+<li>打开 <code>Tools</code> =&gt; <code>global options</code>，然后</li>
+<li>点击<code>sweave</code>，在<code>weave rnw files using</code>选择 <strong>knitr</strong></li>
+<li>在<code>Typeset LaTex into PDF using</code> 选择<strong>XeLaTex</strong></li>
+<li>在<code>Code =&gt; Saving =&gt; Default text Encoding</code> 选择 <code>UTF-8</code></li>
+</ul></li>
+<li>把中文LaTex模版文件<code>template_article_zh.tex</code>与作业文件放在同一个文件夹；</li>
+<li>安装需要的软件包（bookdown等）。</li>
+</ol>
+<p>更详细的说明可参看我的博客 <a href="https://andrewwang.netlify.com/post/2019-10-18-rmarkdown-writing/">《如何用 R Markdown 写学术文档？》</a> 和
+<a href="https://andrewwang.netlify.com/post/2019-10-10-intr-rmd/">《R Markdown 用法》</a>。</p>
+<p>本Rmd文档可作为作业模板和示例,但提交的作业不要包含本说明。</p>
+</div>
+<div id="离散型随机变量的分布" class="section level1">
+<h1>离散型随机变量的分布</h1>
+<div id="二项分布" class="section level2">
+<h2>二项分布</h2>
+<p>在<span class="math inline">\(n\)</span>次独立重复试验中，记<span class="math inline">\(X\)</span>为事件A发生的次数，假设在每次试验中事件A发生的概率都是<span class="math inline">\(p\)</span>，则随机变量<span class="math inline">\(X\)</span>的分布称为<strong>二项分布</strong>，记为 <span class="math inline">\(X \sim \mathrm{Binom}(n,p)\)</span>，其概率函数为
+<span class="math display">\[P(X=k|n,p)= \binom{n}{k}(1-p)^{n-k},(k=0,1,\dots,n; 0&lt;p&lt;1)\]</span>
+其中<span class="math inline">\(E(X)=np, D(X)=np(1-p)\)</span>。</p>
+</div>
+</div>
+<div id="连续型随机变量的分布" class="section level1">
+<h1>连续型随机变量的分布</h1>
+<div id="均匀分布" class="section level2">
+<h2>均匀分布</h2>
+<p>如果随机变量<span class="math inline">\(X\)</span>的密度函数(pdf)为
+<span class="math display">\[X \sim f(x|a,b)= 
+  \begin{cases} 
+    \frac{1}{b-a}, &amp; a&lt;x&lt;b \\ 
+                0, &amp; \mathrm{otherwise} 
+  \end{cases}\]</span>
+则<span class="math inline">\(X\)</span>的分布称为<span class="math inline">\((a,b)\)</span>区间的均匀分布，记为 <span class="math inline">\(X \sim \mathrm{Unif}(a,b)\)</span>。</p>
+<p>其数学期望和方差分别为
+<span class="math display">\[E(X) = \frac{a+b}{2}, D(X) = \frac{(b-a)^2}{12}.\]</span></p>
+</div>
+</div>
+<div id="常用多维分布" class="section level1">
+<h1>常用多维分布</h1>
+<div id="多项分布" class="section level2">
+<h2>多项分布</h2>
+<p>假设进行<span class="math inline">\(n\)</span>次独立重复试验，每次试验中有<span class="math inline">\(k\)</span>个可能的结果，各个结果发生的概率分别为 <span class="math inline">\(p_{1},...,p_{k}\)</span> (其中<span class="math inline">\(p_{i} \ge 0, \sum_{i=1}^{k}p_{i}=1\)</span>)。记 <span class="math inline">\(X_{i}\)</span> 为第<span class="math inline">\(i\)</span>个结果出现的次数，则称随机向量<span class="math inline">\(\boldsymbol{X}=(X_{1},X_{2},\dots,X_{k})^{T}\)</span> 服从多项分布(Multinomial distribution)，参数为 <span class="math inline">\(n\)</span>和 <span class="math inline">\(\boldsymbol{p}=(p_{1},p_{2},\dots,p_{k})^{T}\)</span>，记为<span class="math inline">\(\boldsymbol{X} \sim \mathrm{Multinom}(n,\boldsymbol{p})\)</span>，其联合概率函数(pmf)为
+<span class="math display">\[P(X_{1}=x_{1},\dots,X_{k}=x_{k})={n \choose x_{1}x_{x}\cdots x_{k}}\ p_{1}^{x_{1}}p_{2}^{x_{2}}\dots p_{k}^{x_{k}}, \, (x_i \ge 0, \sum_{i=1}^{k}x_{i}=n).\]</span></p>
+<p>多项分布<span class="math inline">\(\mathrm{Multinom}(n,\boldsymbol{p})\)</span>具有如下性质：</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\({\rm E}(\boldsymbol{X})=n\boldsymbol{p}\)</span>, 即 <span class="math inline">\({\rm E}(X_{i})=np_{i} \, (i=1,2,\dots,k)\)</span></p></li>
+<li><p><span class="math inline">\(\boldsymbol{X}\)</span>的协方差矩阵<span class="math inline">\(\Sigma\)</span> 是对称矩阵，其对角线元素为
+<span class="math display">\[\sigma_{i}^{2}=np_{i}(1-p_{i}),\]</span>
+非对角线元素为
+<span class="math display">\[{\rm Cov}(X_{i},X_{j})=-np_{i}p_{j} \, (i\ne j).\]</span></p></li>
+<li><p><span class="math inline">\(\boldsymbol{X}\)</span>的相关系数矩阵元素为
+<span class="math display">\[{\rm Corr}(X_{i},X_{j})=\frac{-np_{i}p_{j}}{\sqrt{np_{i}(1-p_{i})\cdot np_{j}(1-p_{j})}}=-\sqrt{\frac{p_{i}p_{j}}{q_{i}q_{j}}}\]</span></p></li>
+<li><p>记<span class="math inline">\(\boldsymbol{X}_{(k-1)}=(X_{1},X_{2},\dots,X_{k-1})^{T}\)</span>，则 <span class="math inline">\(\boldsymbol{X}_{(k-1)} \sim \mathrm{Multinom}(n,\boldsymbol{p}_{(k-1)})\)</span>，其中 <span class="math display">\[\boldsymbol{p}_{(k-1)}=(p_{1},\dots,p_{k-2},p_{k-1}+p_{k})^{T}.\]</span></p></li>
+</ol>
+<p>特别, <span class="math inline">\(X_{i}\sim\text{Bin}(n,p_{i}).\)</span></p>
+</div>
+</div>

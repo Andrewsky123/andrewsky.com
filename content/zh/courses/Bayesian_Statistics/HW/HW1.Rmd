@@ -1,0 +1,91 @@
+---
+title: "作业1：常见概率分布"
+author:  姓名（学号）
+date: "`r format(Sys.time(), '%Y年%m月%d日')`"
+output: 
+  bookdown::pdf_document2: 
+    dev: "cairo_pdf"  # Allow Chinese figure title and labels
+    latex_engine: xelatex  # for chinese
+    template: template_article_zh.tex   #latex template
+    fig_caption: yes
+    number_sections: yes
+    toc: no   # 不显示目录
+    toc_depth: 3
+  bookdown::gitbook:
+    config:
+      toc: 
+        collapse: subsection
+    self.contained: yes
+    #table_css: TRUE
+    number_sections: TRUE
+    split_by: none
+---
+
+# 说明 {-}
+
+本次作业是写出**常用概率分布，要求不能少于25个分布。每个分布至少要给出分布的定义、概率函数或密度函数、数学期望和方差**。
+
+每次作业，需提交Rmarkdown文档和所生成的pdf文档。
+
+做作业之前，你可能需要做如下准备工作：
+
+1. 安装LaTex（建议安装完整版的Texlive或最新版的MikTex）；
+2. 安装R和RStudio；
+3. 正确配置RStudio：     
+    - 打开 `Tools` => `global options`，然后 
+    - 点击`sweave`，在`weave rnw files using`选择 **knitr** 
+    - 在`Typeset LaTex into PDF using` 选择**XeLaTex** 
+    - 在`Code => Saving => Default text Encoding` 选择 `UTF-8` 
+4. 把中文LaTex模版文件`template_article_zh.tex`与作业文件放在同一个文件夹；
+5. 安装需要的软件包（bookdown等）。
+
+更详细的说明可参看我的博客 [《如何用 R Markdown 写学术文档？》](https://andrewwang.netlify.com/post/2019-10-18-rmarkdown-writing/) 和 
+[《R Markdown 用法》](https://andrewwang.netlify.com/post/2019-10-10-intr-rmd/)。
+
+本Rmd文档可作为作业模板和示例,但提交的作业不要包含本说明。
+
+# 离散型随机变量的分布
+
+## 二项分布
+
+在$n$次独立重复试验中，记$X$为事件A发生的次数，假设在每次试验中事件A发生的概率都是$p$，则随机变量$X$的分布称为**二项分布**，记为 $X \sim \mathrm{Binom}(n,p)$，其概率函数为
+$$P(X=k|n,p)= \binom{n}{k}(1-p)^{n-k},(k=0,1,\dots,n; 0<p<1)$$
+其中$E(X)=np, D(X)=np(1-p)$。
+
+# 连续型随机变量的分布
+
+## 均匀分布
+
+如果随机变量$X$的密度函数(pdf)为
+$$X \sim f(x|a,b)= 
+  \begin{cases} 
+    \frac{1}{b-a}, & a<x<b \\ 
+                0, & \mathrm{otherwise} 
+  \end{cases}$$
+则$X$的分布称为$(a,b)$区间的均匀分布，记为 $X \sim \mathrm{Unif}(a,b)$。
+  
+其数学期望和方差分别为
+$$E(X) = \frac{a+b}{2}, D(X) = \frac{(b-a)^2}{12}.$$
+
+# 常用多维分布
+
+## 多项分布
+
+假设进行$n$次独立重复试验，每次试验中有$k$个可能的结果，各个结果发生的概率分别为 $p_{1},...,p_{k}$ (其中$p_{i} \ge 0, \sum_{i=1}^{k}p_{i}=1$)。记 $X_{i}$ 为第$i$个结果出现的次数，则称随机向量$\boldsymbol{X}=(X_{1},X_{2},\dots,X_{k})^{T}$ 服从多项分布(Multinomial distribution)，参数为 $n$和 $\boldsymbol{p}=(p_{1},p_{2},\dots,p_{k})^{T}$，记为$\boldsymbol{X} \sim \mathrm{Multinom}(n,\boldsymbol{p})$，其联合概率函数(pmf)为
+$$P(X_{1}=x_{1},\dots,X_{k}=x_{k})={n \choose x_{1}x_{x}\cdots x_{k}}\ p_{1}^{x_{1}}p_{2}^{x_{2}}\dots p_{k}^{x_{k}}, \, (x_i \ge 0, \sum_{i=1}^{k}x_{i}=n).$$
+
+多项分布$\mathrm{Multinom}(n,\boldsymbol{p})$具有如下性质：
+
+1. ${\rm E}(\boldsymbol{X})=n\boldsymbol{p}$, 即 ${\rm E}(X_{i})=np_{i} \, (i=1,2,\dots,k)$
+
+2. $\boldsymbol{X}$的协方差矩阵$\Sigma$ 是对称矩阵，其对角线元素为 
+$$\sigma_{i}^{2}=np_{i}(1-p_{i}),$$ 
+非对角线元素为
+$${\rm Cov}(X_{i},X_{j})=-np_{i}p_{j} \, (i\ne j).$$
+
+3. $\boldsymbol{X}$的相关系数矩阵元素为
+$${\rm Corr}(X_{i},X_{j})=\frac{-np_{i}p_{j}}{\sqrt{np_{i}(1-p_{i})\cdot np_{j}(1-p_{j})}}=-\sqrt{\frac{p_{i}p_{j}}{q_{i}q_{j}}}$$
+
+4. 记$\boldsymbol{X}_{(k-1)}=(X_{1},X_{2},\dots,X_{k-1})^{T}$，则 $\boldsymbol{X}_{(k-1)} \sim \mathrm{Multinom}(n,\boldsymbol{p}_{(k-1)})$，其中 $$\boldsymbol{p}_{(k-1)}=(p_{1},\dots,p_{k-2},p_{k-1}+p_{k})^{T}.$$
+
+特别, $X_{i}\sim\text{Bin}(n,p_{i}).$ 
