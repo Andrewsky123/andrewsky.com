@@ -15,10 +15,10 @@ type: docs  # Do not modify.
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
-menu: 
-  Bayesian_Statistics:
-    name: 教学大纲 
-    weight: 1
+#menu: 
+#  Bayesian_Statistics:
+#    name: 教学大纲 
+#    weight: 1
 ---
 
 ## 课程简介
@@ -50,6 +50,25 @@ menu:
 - 第一部分介绍贝叶斯基本理论和方法，包括单参数和多参数贝叶斯模型的统计推断；
 - 第二部分介绍贝叶斯计算，包括马尔科夫链蒙特卡洛（MCMC）算法和R、WinBUGS/OpenBUGS、Stan和JAGS等软件的介绍和运用；
 - 第三部分结合社会科学和计量经济学实际数据，介绍贝叶斯统计的建模及应用，包括贝叶斯线性回归模型、广义线性回归模型、多层模型、贝叶斯模型平均法以及模型的检验与比较等。	
+
+## 课件与作业
+
+
+| 章节   |  内容                      |    课件                  |    作业     |
+|:-------:|:--------------------------|:------------------------:|:-----------:|
+|第1章	| 介绍                        | [Ch1](notes/Ch1.pdf)  | [HW1](HW/HW1.pdf) |
+|第2章	|贝叶斯模型及推断             | [Ch2](notes/Ch2.pdf)| [HW2](HW/HW2.pdf) |
+|第3章	|正态与学生t模型              | [Ch3](notes/ch3.pdf)| [HW3](HW/HW3.pdf) |
+|第4章	|先验分布的确定               | [Ch4](notes/Ch4.pdf)| [HW4](HW/HW4.pdf) |
+|第5章	|贝叶斯模型的MCMC算法         | [Ch5](notes/Ch5.pdf)| [HW5](HW/HW5.pdf) |
+|第6章	|贝叶斯模型的软件应用         | [Ch6](notes/Ch6.pdf)| [HW6](HW/HW6.pdf) |
+|第7章	|贝叶斯多元线性回归模型       | [Ch7](notes/Ch7.pdf)| [HW7](HW/HW7.pdf) |
+|第8章	|贝叶斯广义线性回归模型       | [Ch8](notes/Ch8.pdf)| [HW8](HW/HW8.pdf) |
+|第9章	|贝叶斯多层模型               | [Ch9](notes/Ch9.pdf)| [HW9](HW/HW9.pdf) |
+|第10章	|贝叶斯模型的检验、选择与比较 | [Ch10](notes/Ch10.pdf)| [HW10](HW/HW10.pdf)|
+|第11章	|贝叶斯模型平均法             | [Ch11](notes/Ch11.pdf)|  |
+|第12章	|学术论文讨论                 |                           |      |
+
 
 ## 教材和参考文献
 
