@@ -20,12 +20,15 @@ education:
   - course: 学士
     institution: 北京大学数学系
     year: 1985
-  - course: 理学硕士
+  - course: 硕士
     institution: 东南大学数力系
     year: 1988
-  - course: 哲学博士(PhD)
+  - course: 博士(PhD)
     institution: 香港中文大学统计系
     year: 1995
+  - course: 博士后
+    institution: 香港中文大学统计系
+    year: 1997
 
 email: "wangsj@szu.edu.cn"
 
