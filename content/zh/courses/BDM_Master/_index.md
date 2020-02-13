@@ -68,10 +68,10 @@ menu:
 |第2章	|线性规划模型      | [Ch2](notes/ch2.pdf)| [选址问题](notes/Ch2_p.pdf)   | [HW2](HW/HW2.docx) |     
 |第3章	|资本投资决策      | [Ch3](notes/Ch3.pdf)| [投资组合](notes/Ch3.xlsx)    | [HW3](HW/HW3.docx) |     
 |第4章	|数据分析初步      | [Ch4](notes/Ch4.pdf)| [毕业生年薪](notes/Ch4.xls)   | [HW4](HW/HW4.docx) |
-|第5章	|多元线性回归模型1 | [Ch5](notes/Ch5.pdf)| [利餐厅定价](notes/Ch5.xlsx)  | [HW5](HW/HW5.docx) |     
+|第5章	|多元线性回归模型1 | [Ch5](notes/Ch5.pdf)| [餐厅定价](notes/Ch5.xlsx)  | [HW5](HW/HW5.docx) |     
 |第6章	|多元线性回归模型2 | [Ch6](notes/Ch6.pdf)| [公司估值](notes/Ch6.xls)     | [HW6](HW/HW6.docx) |   
 |第7章	|时间序列预测      | [Ch7](notes/Ch6.pdf)| [电话呼叫量](notes/Ch7.xlsx)  | [HW7](HW/HW7.docx) |   
-|第8章	|回归诊断          | [Ch8](notes/Ch6.pdf)| [哺乳动物脑体关系](notes/ch8.txt) |                |  
+|第8章	|回归诊断          | [Ch8](notes/Ch6.pdf)| [脑体关系](notes/ch8.txt) |                |  
 
 作业数据下载：  
 :floppy_disk: [作业3数据](HW/ch3_stocks.xlsx)， [作业4-6数据](HW/beauty.xls)
