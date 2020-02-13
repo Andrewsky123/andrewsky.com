@@ -13,6 +13,7 @@ interests:
 - 贝叶斯
 - 量化金融
 - R，Python
+- Badminton
 
 education:
   courses:

@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: 贝叶斯统计及应用
+linktitle: 贝叶斯统计及应用(统计学硕)
 summary: 贝叶斯推断及建模；马尔科夫链蒙特卡洛算法(MCMC)；贝叶斯软件WinBUGS、RStan等；广义多元线性回归、多层模型、贝叶斯模型平均等模型及实际数据计算。
 weight: 1
 
