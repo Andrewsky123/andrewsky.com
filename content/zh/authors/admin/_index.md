@@ -6,7 +6,7 @@ name: Shujia Wang
 organizations:
 - name: 深圳大学经济学院
   url: "https://www.szu.edu.cn//"
-role: 副教授，博士
+role: 统计学博士
 
 interests:
 - 数理统计
