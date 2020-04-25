@@ -47,6 +47,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/Andrewsky123
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/wang.andrew.75873
 superuser: true
 user_groups:
 - Researchers
