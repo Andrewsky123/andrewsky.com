@@ -10,7 +10,7 @@ image:
   focal_point: ""
 projects: []
 tags: []
-title: 因子复现若干论文
+title: 关于因子复现的两篇新论文简介
 ---
 
 
