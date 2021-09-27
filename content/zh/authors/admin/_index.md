@@ -6,7 +6,7 @@ name: Shujia Wang
 organizations:
 - name: 深圳大学经济学院
   url: "https://www.szu.edu.cn//"
-role: 统计学博士
+role: 统计学博士，副教授
 
 interests:
 - 数理统计
@@ -56,4 +56,4 @@ user_groups:
 - Visitors
 ---
 
-I am the director of the Institute of Statistics in College of Economics at [Shenzhen University](https://www.szu.edu.cn/). My research interests are mainly in Bayesian Statistical Modeling, Quantitative Finance，and Structural Equation Modeling. I have rich practical experience in guiding government departments and enterprises to carry out surveys on statistical data analysis, and various economic and social issues. I have presided over three projects at the provincial and ministerial level or above, and hosted or participated in more than a dozen other vertical and horizontal research projects.
+I am the director of the Institute of Statistics，School of Economics， [Shenzhen University](https://www.szu.edu.cn/). My research interests are mainly in Bayesian Statistical Modeling, Quantitative Finance，and Structural Equation Modeling. I have rich practical experience in guiding government departments and enterprises to carry out surveys on statistical data analysis, and various economic and social issues. I have presided over three projects at the provincial and ministerial level or above, and hosted or participated in more than a dozen other vertical and horizontal research projects.
