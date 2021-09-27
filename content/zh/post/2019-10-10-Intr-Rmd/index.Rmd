@@ -168,12 +168,14 @@ print_welcome("Runoob")
 
 ```
 \[
-f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt,
+f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt.
 \]
 ```
 或者
 
-`$$f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt.$$`，结果显示为
+`$$f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt.$$`，
+
+结果显示为
 
 \[
   f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x)\ \rm{d}t .
