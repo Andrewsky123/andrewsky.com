@@ -164,13 +164,22 @@ print_welcome("Runoob")
 
 **行内公式**用两个美元符号，`$y=x^2$`显示$y=x^2$。
 
-**整行公式**（display style）最简单的方法是用两双美元符号之间表示：
+**整行公式**（display style）可以用如下方法表示：
+
+```
+\[
+f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt.
+\]
+```
+或者
 
 `$$f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x) dt.$$`，
 
-$$
+结果显示为
+
+\[
   f(x) = \frac{1}{2} \sum_{i=1}^\infty \int_0^1 \sin^2(i t x)\ \rm{d}t .
-$$
+\]
 
 **矩阵和行列式公式**
 
