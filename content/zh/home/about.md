@@ -5,7 +5,7 @@ headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear in.
 
-title = "关于我"
+title = "About Me"
 #subtitle = "尽人事,听天命."
 
 # Choose the user profile to display

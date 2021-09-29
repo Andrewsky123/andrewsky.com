@@ -45,7 +45,8 @@ subtitle = ""
 
 ## Books
 
-* Wang Shujia, Du Ting, and Yang Guanghui. _Business Decision making: Modeling and Information Technology_(In Chinese), Peking University Press, 2013.
+* Wang Shujia, Du Ting, and Yang Guanghui. _Business Decision making: Modeling and Information Technology_(In Chinese), Peking University Press, 2013.  
+* Wang Xiaofeng, Zhang Zhirang, Wang Shujia and Xie Wanwen. _Linear Algebra and its Applications_(In Chinese), Shandong Science and Technology Press, 2002.
 
 More publications (together with those in Chinese) please refer to my [google scholar citations](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=aINZKwkAAAAJ&gmla=AJsN-F47peVHaUgfqz3No5ZuARXXazEmLzx5CiLMp_7RFb5V03L7QVXUdsPG4SIEkRrS9lyqEu3iVeM8bASBqMT0AUwWDrgF0G1egQUu750K26X4jNKMrF4).
 
